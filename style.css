@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Open Sans';
@@ -6,9 +12,6 @@ body {
     line-height: 33px;
 }
 
-.page {
-    margin: 0 auto;
-}
 
 nav {
     display: flex;
@@ -44,7 +47,9 @@ nav a {
     position:relative;
     z-index: -1;
 }
-
+.first-section h1 {
+    margin: 20px auto;
+}
 .first-section {
     display: flex;
     flex-direction: column;
@@ -198,3 +203,102 @@ footer h4 {
 
 
 /* ------ RESPONSIVE ------ */
+
+@media (max-width: 400px) {
+
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 0;
+
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .div-first-section-photos {
+        flex-direction: column;
+
+    }
+
+    .div-first-section-photos img {
+        max-width: 100vw;
+    }
+
+    article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .div-second-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .div-second-section h2 {
+        width: 90%;
+    }
+
+    .div-second-section button {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .div-second-section img{
+        width: 100%;
+    }
+
+    .produto {
+        width: 90vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .logo-footer {
+        width: 0 auto;
+        margin: 0;
+    
+    }
+
+}
