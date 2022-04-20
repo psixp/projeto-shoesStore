@@ -204,7 +204,7 @@ footer h4 {
 
 /* ------ RESPONSIVE ------ */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     .page {
         margin: 0;
