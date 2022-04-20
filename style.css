@@ -19,7 +19,7 @@ nav {
 
     background: #FFFFFF;
     box-shadow: 1px 5px 20px rgba(74, 74, 74, 0.65);
-    
+
     z-index: 1;
 }
 
@@ -68,6 +68,7 @@ article {
     align-items: center;
     background: #C2185B;
     margin-top: 200px;
+    margin-bottom: 160px;
 }
 
 article h2 {
@@ -102,3 +103,98 @@ article h2 {
 .produtos p {
     padding: 10px;
 }
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+}
+
+.div-second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.div-second-section h2 {
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    margin: auto;
+    width: 500px;
+
+    color: #000000;
+}
+
+.div-second-section button {
+    font-weight: 60;
+    font-size: 39px;
+    line-height: 53px;
+
+    margin-right: 138px;
+    margin-bottom: 50px;
+    border: none;
+    padding: 23px 85px;
+
+    color: #FFFFFF;
+    background: #C2185B;
+}
+
+footer {
+    margin-top: 120px;
+    padding: 40px 20px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    background: #C2185B;
+}
+
+footer a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    text-align:start;
+    
+
+    color: #FFFFFF;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer h4 {
+    margin: 0 auto;
+}
+
+.logo-footer {
+    width: 200px;
+    margin: 0px 260px 30px 130px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.institucional-footer {
+    margin-right: 150px;
+}
+
+.div-second-section button:hover {
+    cursor: pointer;
+    background-color: #971247;
+}
+
+
+/* ------ RESPONSIVE ------ */
